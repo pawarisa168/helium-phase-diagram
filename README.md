@@ -55,28 +55,29 @@ The left panel provides input boxes and buttons for interaction.
 
 ---
 
-# 3️⃣ Using the Interface
-# 🟦 LEFT PANEL
-# - Temperature (K): Enter value in Kelvin
-# - Pressure (Pa or Torr): Enter numeric value
-# - Pressure Unit: Choose between Pa (default) or Torr
-# Buttons:
-#   • Plot → Adds your input point to the graph (magenta dot)
-#   • Export to Excel → Saves input data into Data_inputs.xlsx
+### 3️⃣ Using the Interface
+🟦 LEFT PANEL
+- Temperature (K): Enter value in Kelvin
+- Pressure (Pa or Torr): Enter numeric value
+- Pressure Unit: Choose between Pa (default) or Torr
+Buttons:
+  • Plot → Adds your input point to the graph (magenta dot)
+  • Export to Excel → Saves input data into Data_inputs.xlsx
 
-# 🟥 RIGHT PANEL
-# Displays the Helium Phase Diagram:
-#   • Red Line   = Saturated Vapor Pressure Curve
-#   • Green Line = Lambda Line
-#   • Yellow Line = Melting Curve
-#   • Your points appear as magenta dots
-# ---------------------------------------------------------
+🟥 RIGHT PANEL
+ Displays the Helium Phase Diagram:
+  • Red Line   = Saturated Vapor Pressure Curve
+  • Green Line = Lambda Line
+  • Yellow Line = Melting Curve
+  • Your points appear as magenta dots
+  
+---
 
-# 4️⃣ Output Example
-# After clicking "Export to Excel", a file is created in the same folder:
-#   Data_inputs.xlsx
-#
-# Example contents:
+### 4️⃣ Output Example
+After clicking "Export to Excel", a file is created in the same folder:
+ Data_inputs.xlsx
+
+Example contents:
 #   Temperature (K) | Pressure (Pa)
 #   ----------------|---------------
 #         1.80      |     2500000
