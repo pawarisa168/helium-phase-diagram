@@ -36,7 +36,6 @@ Perfect for **students, researchers, and educators** in physics, cryogenics, and
 
 ## How to Run 
 
-```bash
 # 1️⃣ Install Dependencies
 # Make sure you have Python ≥ 3.10 installed, then run:
 pip install matplotlib pandas openpyxl
