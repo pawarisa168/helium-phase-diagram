@@ -41,4 +41,20 @@ Make sure you have Python ≥ 3.10 installed, then run:
 ```bash
 pip install -r requirements.txt
 
+## How to Run
+
+### 1️⃣ Install dependencies
+Make sure you have Python ≥ 3.10 installed, then run:
+
+```bash
+pip install -r requirements.txt
+
+## 🧮 How to Run
+
+### 2️⃣ Run the Application
+
+Once all dependencies are installed, run the main script:
+
+```bash
+python Helium_Phase_Diagram_V1.1.py
 
