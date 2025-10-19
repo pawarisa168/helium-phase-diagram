@@ -78,27 +78,31 @@ After clicking "Export to Excel", a file is created in the same folder:
  Data_inputs.xlsx
 
 Example contents:
-#   Temperature (K) | Pressure (Pa)
-#   ----------------|---------------
-#         1.80      |     2500000
-#         2.00      |     2800000
-#
-# You can open this file in Excel or Google Sheets.
-# ---------------------------------------------------------
+ Temperature (K) | Pressure (Pa)
+ ----------------|---------------
+       1.80      |     2500000
+       2.00      |     2800000
+ You can open this file in Excel or Google Sheets.
+ 
+----
 
-# 5️⃣ Troubleshooting
-# If GUI doesn’t open:
-#   - Check that you are in the correct project folder
-#   - Ensure Python ≥ 3.10 is installed
-#   - Reinstall dependencies:
+### 5️⃣ Troubleshooting
+
+ If GUI doesn’t open:
+   - Check that you are in the correct project folder
+   - Ensure Python ≥ 3.10 is installed
+  - Reinstall dependencies:
+```bash
 pip install matplotlib pandas openpyxl
+```
+Common error:
+ValueError: x and y must have same first dimension
+ → means the temperature and pressure lists in the code are mismatched.
+ 
+----
 
-# Common error:
-# ValueError: x and y must have same first dimension
-# → means the temperature and pressure lists in the code are mismatched.
-# ---------------------------------------------------------
-
-# 6️⃣ Example Commands Recap
+### 6️⃣ Example Commands Recap
+```bash
 # (Optional) Create a virtual environment
 python -m venv venv
 .\venv\Scripts\activate
@@ -111,5 +115,4 @@ python Helium_Phase_Diagram_V1.1.py
 
 # Exported data file will appear as:
 Data_inputs.xlsx
-# ---------------------------------------------------------
-
+```
