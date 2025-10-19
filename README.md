@@ -33,73 +33,79 @@ Perfect for **students, researchers, and educators** in physics, cryogenics, and
 
 ---
 
-
 ## How to Run 
 
 ### 1️⃣ Install Dependencies
 Make sure you have Python ≥ 3.10 installed, then run:
+
 ```bash
 pip install matplotlib pandas openpyxl
 ```
+
 ---
 
 ### 2️⃣ Run the Application
 Once installed, launch the GUI by running:
+
 ```bash
 python Helium_Phase_Diagram_V1.1.py
 ```
 
-A Tkinter window will open showing the Helium Phase Diagram.
-The right panel displays a live Matplotlib graph.
+A Tkinter window will open showing the Helium Phase Diagram.  
+The right panel displays a live Matplotlib graph.  
 The left panel provides input boxes and buttons for interaction.
 
 ---
 
 ### 3️⃣ Using the Interface
-🟦 LEFT PANEL
-- Temperature (K): Enter value in Kelvin
-- Pressure (Pa or Torr): Enter numeric value
-- Pressure Unit: Choose between Pa (default) or Torr
-Buttons:
-  • Plot → Adds your input point to the graph (magenta dot)
-  • Export to Excel → Saves input data into Data_inputs.xlsx
+🟦 **LEFT PANEL**  
+- **Temperature (K):** Enter value in Kelvin  
+- **Pressure (Pa or Torr):** Enter numeric value  
+- **Pressure Unit:** Choose between Pa (default) or Torr  
 
-🟥 RIGHT PANEL
- Displays the Helium Phase Diagram:
-  • Red Line   = Saturated Vapor Pressure Curve
-  • Green Line = Lambda Line
-  • Yellow Line = Melting Curve
-  • Your points appear as magenta dots
-  
+**Buttons:**  
+- **Plot** → Adds your input point to the graph (magenta dot)  
+- **Export to Excel** → Saves input data into *Data_inputs.xlsx*  
+
+🟥 **RIGHT PANEL**  
+Displays the Helium Phase Diagram including:  
+- **Red Line** = Saturated Vapor Pressure Curve  
+- **Green Line** = Lambda Line  
+- **Yellow Line** = Melting Curve  
+- User points appear as **magenta dots**  
+
 ---
 
 ### 4️⃣ Output Example
-After clicking "Export to Excel", a file is created in the same folder:
- Data_inputs.xlsx
+After clicking “Export to Excel”, a file named **Data_inputs.xlsx** will be created in the same folder.  
 
-Example contents:
- Temperature (K) | Pressure (Pa)
- ----------------|---------------
-       1.80      |     2500000
-       2.00      |     2800000
- You can open this file in Excel or Google Sheets.
- 
-----
+**Example contents:**  
+| Temperature (K) | Pressure (Pa) |
+|-----------------|----------------|
+| 1.80 | 2500000 |
+| 2.00 | 2800000 |
+
+You can open this file in **Excel** or **Google Sheets** for further analysis.
+
+---
 
 ### 5️⃣ Troubleshooting
+If GUI doesn’t open:  
+- Check that you are in the correct project folder  
+- Ensure Python ≥ 3.10 is installed  
+- Reinstall dependencies:
 
- If GUI doesn’t open:
-   - Check that you are in the correct project folder
-   - Ensure Python ≥ 3.10 is installed
-  - Reinstall dependencies:
 ```bash
 pip install matplotlib pandas openpyxl
 ```
-Common error:
+
+**Common error:**
+```
 ValueError: x and y must have same first dimension
- → means the temperature and pressure lists in the code are mismatched.
- 
-----
+```
+→ Means the temperature and pressure lists in the code are mismatched.  
+
+---
 
 ### 6️⃣ Example Commands Recap
 ```bash
