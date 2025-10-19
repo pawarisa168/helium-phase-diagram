@@ -35,7 +35,7 @@ Perfect for **students, researchers, and educators** in physics, cryogenics, and
 
 ## How to Run 
 
-### 1️⃣ Install Dependencies
+### 1 Install Dependencies
 Make sure you have Python ≥ 3.10 installed, then run:
 
 ```bash
@@ -44,7 +44,7 @@ pip install matplotlib pandas openpyxl
 
 ---
 
-### 2️⃣ Run the Application
+### 2 Run the Application
 Once installed, launch the GUI by running:
 
 ```bash
@@ -57,8 +57,8 @@ The left panel provides input boxes and buttons for interaction.
 
 ---
 
-### 3️⃣ Using the Interface
-🟦 **LEFT PANEL**  
+### 3 Using the Interface
+ **LEFT PANEL**  
 - **Temperature (K):** Enter value in Kelvin  
 - **Pressure (Pa or Torr):** Enter numeric value  
 - **Pressure Unit:** Choose between Pa (default) or Torr  
@@ -67,7 +67,7 @@ The left panel provides input boxes and buttons for interaction.
 - **Plot** → Adds your input point to the graph (magenta dot)  
 - **Export to Excel** → Saves input data into *Data_inputs.xlsx*  
 
-🟥 **RIGHT PANEL**  
+ **RIGHT PANEL**  
 Displays the Helium Phase Diagram including:  
 - **Red Line** = Saturated Vapor Pressure Curve  
 - **Green Line** = Lambda Line  
@@ -76,7 +76,7 @@ Displays the Helium Phase Diagram including:
 
 ---
 
-### 4️⃣ Output Example
+### 4 Output Example
 After clicking “Export to Excel”, a file named **Data_inputs.xlsx** will be created in the same folder.  
 
 **Example contents:**  
@@ -89,7 +89,7 @@ You can open this file in **Excel** or **Google Sheets** for further analysis.
 
 ---
 
-### 5️⃣ Troubleshooting
+### 5 Troubleshooting
 If GUI doesn’t open:  
 - Check that you are in the correct project folder  
 - Ensure Python ≥ 3.10 is installed  
@@ -107,7 +107,7 @@ ValueError: x and y must have same first dimension
 
 ---
 
-### 6️⃣ Example Commands Recap
+### 6 Example Commands Recap
 ```bash
 # (Optional) Create a virtual environment
 python -m venv venv
