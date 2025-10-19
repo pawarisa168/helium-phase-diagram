@@ -25,4 +25,4 @@ Perfect for **students, researchers, and educators** in physics, cryogenics, and
 
 > ![alt text](image.png)
 
-Example layout: git add README.md
+Example layout: 
