@@ -27,3 +27,18 @@ Perfect for **students, researchers, and educators** in physics, cryogenics, and
 
 **Example layout:**
 
+| **Left Panel** | **Right Panel** |
+|----------------|----------------|
+| Temperature Input<br>Pressure Input<br>Unit Selection<br>Buttons (Plot / Export) | Interactive Graph displaying Helium Phase Diagram |
+
+---
+
+## How to Run
+
+### Install dependencies
+Make sure you have Python ≥ 3.10 installed, then run:
+
+```bash
+pip install -r requirements.txt
+
+
