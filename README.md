@@ -23,6 +23,7 @@ Perfect for **students, researchers, and educators** in physics, cryogenics, and
 
 ## GUI Preview
 
-> ![alt text](image.png)
+> <img width="478" height="270" alt="image" src="https://github.com/user-attachments/assets/19bfac24-65a4-4208-a708-cf7b15065231" />
 
-Example layout: 
+**Example layout:**
+
