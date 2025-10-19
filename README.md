@@ -36,19 +36,24 @@ Perfect for **students, researchers, and educators** in physics, cryogenics, and
 
 ## How to Run 
 
-# 1️⃣ Install Dependencies
-# Make sure you have Python ≥ 3.10 installed, then run:
+### 1️⃣ Install Dependencies
+Make sure you have Python ≥ 3.10 installed, then run:
+```bash
 pip install matplotlib pandas openpyxl
+```
+---
 
-# ---------------------------------------------------------
-# 2️⃣ Run the Application
-# Once installed, launch the GUI by running:
+### 2️⃣ Run the Application
+Once installed, launch the GUI by running:
+```bash
 python Helium_Phase_Diagram_V1.1.py
+```
 
-# A Tkinter window will open showing the Helium Phase Diagram.
-# The right panel displays a live Matplotlib graph.
-# The left panel provides input boxes and buttons for interaction.
-# ---------------------------------------------------------
+A Tkinter window will open showing the Helium Phase Diagram.
+The right panel displays a live Matplotlib graph.
+The left panel provides input boxes and buttons for interaction.
+
+---
 
 # 3️⃣ Using the Interface
 # 🟦 LEFT PANEL
