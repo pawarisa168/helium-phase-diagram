@@ -40,17 +40,18 @@ Make sure you have Python ≥ 3.10 installed, then run:
 ```bash
 pip install -r requirements.txt
 
-2️⃣ Run the Application
+### 2️⃣ Run the Application
 
 Once all dependencies are installed, execute the following command to start the program:
 
+```bash
 python Helium_Phase_Diagram_V1.1.py
 
 
 A Tkinter GUI window will appear showing the Helium Phase Diagram.
 The right side displays a Matplotlib plot, and the left side contains input fields and buttons.
 
-3️⃣ Using the Interface
+### 3️⃣ Using the Interface
 🟦 Left Panel
 
 Input fields for:
@@ -78,7 +79,7 @@ Lambda Line (green)
 Melting Curve (yellow)
 Your input points appear as magenta dots.
 
-4️⃣ Output Example
+### 4️⃣ Output Example
 
 When you click Export to Excel, the file Data_inputs.xlsx will be generated in the same directory:
 
@@ -88,7 +89,7 @@ Temperature (K)	Pressure (Pa)
 
 You can open this file with Excel, Google Sheets, or any data tool.
 
-5️⃣ Troubleshooting
+### 5️⃣ Troubleshooting
 
 If the GUI doesn’t open:
 
@@ -98,6 +99,7 @@ Check that Python ≥ 3.10 is installed
 
 Try reinstalling dependencies:
 
+```bash
 pip install matplotlib pandas openpyxl
 
 
@@ -108,7 +110,9 @@ ValueError: x and y must have same first dimension
 
 → It means the temperature and pressure lists have mismatched lengths.
 
-6️⃣ Example Commands Recap
+### 6️⃣ Example Commands Recap
+
+```bash
 # (Optional) Create a virtual environment
 python -m venv venv
 .\venv\Scripts\activate
