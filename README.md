@@ -41,4 +41,3 @@ Make sure you have Python ≥ 3.10 installed, then run:
 pip install -r requirements.txt
 ```
 ---
-### 1️⃣ Install dependencies
